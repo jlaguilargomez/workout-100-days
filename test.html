@@ -6,35 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
     <!-- Enlace a CSS -->
-    <link rel="stylesheet" href="./src/test.css">
-
-    <!-- Enlace a bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!--Link Font-Awesome-->
-    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css“>
+    <link rel="stylesheet" href="./src/style-test.css">
 
     <!--Link FONT-->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+    
+
 </head>
 
 <body>
-    <!--Icono Font Awesome-->
-    <div class="main">
-        <i class=""></i>
-
-        <div class="app">
-            <img class="test1" src="./src/test1.svg" alt="test-entrenamiento">
-
-            <div class="description">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <input type="button" class="button1-pb" value="¡Hacer test!"></input>
+    <div id="framework" class="framework">
+        <!-- Meter una nueva caja para cambiarla con JS -->
+        <i id="exit-button" class="far fa-times-circle icon"></i>
+        <div class="description">
+            <img src="./img/training.svg" alt="training">
+            <div>
+                <p>Comienza nuestro test para valorar tu nivel y poder darte ejercicios personalizados.</p>
+                <input id="start-button" class="button" type="button" value="¡Vamos!">
             </div>
-    
         </div>
-        
 
     </div>
-        
+
+
+
+    <script src="./src/script.js"></script> 
 </body>
 </html>
